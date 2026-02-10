@@ -2,7 +2,10 @@
 
 # 📌 Sobre o Projeto
 
-Indicadores Socioeconômicos é uma aplicação web desenvolvida com React + Vite, JavaScript, React Bootstrap e Bootstrap, voltada para a visualização e análise de dados sociais, econômicos e taxas de câmbio de diferentes países. O projeto consome dados oficiais da API do Banco Mundial e da ExchangeRate API, permitindo ao usuário selecionar países, anos e indicadores de forma dinâmica. A aplicação permite a consulta de diferentes indicadores socioeconômicos, incluindo:
+Indicadores Socioeconômicos é uma aplicação web desenvolvida com React + Vite, JavaScript, React Bootstrap e Bootstrap, voltada para a visualização e análise de dados sociais, econômicos e taxas de câmbio de diferentes países. O projeto utiliza dados oficiais da API do Banco Mundial e da API ExchangeRate, permitindo ao usuário selecionar países, anos e indicadores de forma dinâmica.
+
+Durante o desenvolvimento, foi utilizada a configuração de variáveis de ambiente (.env) para proteger informações sensíveis, como a chave de acesso da API de taxa de câmbio. Além disso, foi incluído no projeto um arquivo .env.example, com o objetivo de demonstrar a estrutura necessária para configuração do ambiente, seguindo boas práticas de segurança e versionamento no GitHub. A aplicação permite a consulta de diferentes indicadores socioeconômicos, incluindo:
+
 - Expectativa de vida ao nascer
 - Taxa de pobreza
 - População total
